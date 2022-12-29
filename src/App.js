@@ -1,8 +1,9 @@
+import { Content } from "./components/layout/Content"
+import { Header } from "./components/layout/Header"
 
 export const App = () => (
   <div className="App">
-    <header className="App-header">
-      <p>F1 Data App! Great!</p>
-    </header>
+    <Header />
+    <Content />
   </div>
 )
