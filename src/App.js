@@ -1,9 +1,10 @@
-import { Content } from "./components/layout/Content"
-import { Header } from "./components/layout/Header"
+import Button from '@mui/material/Button';
+import Navigation from './components/Navigation';
 
 export const App = () => (
   <div className="App">
-    <Header />
-    <Content />
+    <p>Hello World!</p>
+    <Button variant="contained">Hello World</Button>
+    <Navigation />
   </div>
 )
